@@ -1,15 +1,8 @@
 import './App.css';
+import Board from './components/Board';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Hello World!
-        </p>
-      </header>
-    </div>
-  );
+  return <Board />;
 }
 
 export default App;
